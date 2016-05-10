@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prompts>
+    <prompt strategy="task" id="AGENT_INTRODUCE">
+        <text>Hi, I'm [AGENT NAME]. Throughout this course, I will be facilitating your group discussions about the course material.</text>
+    </prompt>
+    <prompt strategy="task" id="INTRO">
+        <text>Let's start by introducing yourselves. Take a minute to get to know each other.</text>
+    </prompt>
+    <prompt strategy="task" id="EXPECTATIONS">
+        <text>Great. Next, I would like you to discuss your expectations of this course. Why did you enroll in the course and what do you hope to take away from it?</text>
+    </prompt>
+    <prompt strategy="task" id="FINISH">
+        <text>Thanks for this pleasant chat. That's it for today. I will see you again once the course has started. Then we will have the opportunity to discuss what you have learned in the lessons. Have a good time. </text>
+    </prompt>
+</prompts>

@@ -1,0 +1,3 @@
+#!/bin/sh
+cd lobby
+node server_carolyn.js $1 $2 $3 $4

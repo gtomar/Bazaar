@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan name="week0">
+    <stage name="initiate" type="other" delay="0">
+        <step type="prompt" delay="0" prompt="AGENT_INTRODUCE">AGENT_INTRODUCE</step>
+        <step type="prompt" delay="0" prompt="INTRO">INTRO</step>
+        <step type="gated" gated_type="listen" timeout="300" delay="0" checkin_prompt="WAIT_FOR_CHECKIN">INTRO_DISCUSSION</step>
+    </stage>
+    <stage name="expectations" type="other" delay="0">
+        <step type="prompt" delay="0" prompt="EXPECTATIONS">EXPECTATIONS</step>
+        <step type="gated" gated_type="listen" timeout="600" delay="0" checkin_prompt="WAIT_FOR_DISCUSSION">DISCUSS_EXPECTATIONS</step>
+    </stage>
+    <stage name="finish" type="other" delay="0">
+        <step type="prompt" delay="5" prompt="FINISH">FINISH</step>
+        <step type="logout" delay="0">LOGOUT</step>
+    </stage>
+</plan>
