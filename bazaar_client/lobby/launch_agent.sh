@@ -1,8 +1,8 @@
 #!/bin/bash
 #usage: ./run.sh roomname num condition [numcols [width height]]
 
-agentdir="/usr1/bazaar/week0/week0agent/"
-jarname="week0agent.jar";
+agentdir="../BazaarAgent/"
+jarname="BazaarAgent.jar";
 
 
 roomname=${1:-"Week0_"};
